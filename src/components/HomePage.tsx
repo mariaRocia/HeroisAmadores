@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Star, Trophy, Users } from 'lucide-react';
+import { Coffee, Star, Trophy, Users } from 'lucide-react';
 
 interface HomePageProps {
   onSectionChange: (section: string) => void;
@@ -10,7 +10,7 @@ const HomePage: React.FC<HomePageProps> = ({ onSectionChange }) => {
     { icon: Users, label: 'Heróis Treinados', value: '1,247' },
     { icon: Trophy, label: 'Missões Concluídas', value: '3,891' },
     { icon: Star, label: 'Desculpas Geradas', value: '12,456' },
-    { icon: Shield, label: 'Cafés Salvos', value: '867' },
+    { icon: Coffee, label: 'Cafés Salvos', value: '867' },
   ];
 
   return (
