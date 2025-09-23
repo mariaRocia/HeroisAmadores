@@ -1,56 +1,36 @@
-Academia de Heróis Amadores
+## 🚀 Como Rodar o Projeto
 
-1. Visão Geral do Projeto
-   • Título: Academia de Heróis Desajeitados
-   • Introdução: A Academia de Heróis Desajeitados é uma plataforma de treinamento digital para super-heróis amadores, onde a inexperiência é vista como um superpoder.
-   • Público-Alvo: Heróis em treinamento, vigilantes do bairro com problemas de coordenação motora, e entusiastas de filmes trash que buscam aprimorar suas habilidades (ou, pelo menos, encontrar desculpas convincentes para seus fracassos).
-   • Objetivos do Projeto:
-   ◦ Criar uma plataforma de treinamento interativa.
-   ◦ Gerar desculpas hilárias e convincentes.
-   ◦ Oferecer um espaço para socialização através do Clube de Filmes Ruins.
-   ◦ Construir uma comunidade engajada.
+### Pré-requisitos
+- Node.js 18+ 
+- npm
 
-2. Funcionalidades Detalhadas
-   • Página Principal (Dashboard do Herói):
-   ◦ Acesso a módulos de treinamento.
-   ◦ Painel de status e “nível de desajeitamento” do herói.
-   ◦ Notificações sobre novas missões ou filmes no clube.
-   • Módulos de Treinamento:
-   ◦ Tipos de treino (ex: “Voar em Linha Reta”, “Aterrissagem Suave”, “Invisibilidade para Iniciantes”).
-   ◦ Conteúdo será apresentado (vídeos, textos, quizzes).
-   • Gerador de Desculpas:
-   ◦ O usuário clica em um botão e uma desculpa aleatória é gerada.
-   ◦ Possibilidade de filtros (desculpa para “missão falha” vs. “falta no treino”).
-   • Clube de Filmes Ruins:
-   ◦ Galeria de vídeos do YouTube/Lista com sinopses.
-   ◦ Comentários e votação.
-   • Perfil do Usuário:
-   ◦ Informações básicas (nome de herói, superpoder, fraqueza).
-   ◦ Histórico de desculpas geradas e filmes assistidos.
+### Instalação e Execução
 
-3. Arquitetura e Tecnologias
-   • Frontend:
-   ◦ Framework: React com TypeScript: Biblioteca para criar interfaces componentizadas com tipagem estática
-   ◦ Bundler: Vite: Ferramenta que agiliza o desenvolvimento e a criação de apps web
-   ◦ Estilização: Tailwind CSS: Framework CSS com classes utilitárias para estilização ágil.
-   ◦Ícones: Lucide React: Ícones SVG leves como componentes React
-   • Ferramentas e Outras Tecnologias:
-   ◦ Controle de Versão: Git (com repositório no GitHub).
+```bash
+# Clone o repositório
+git clone  https://github.com/mariaRocia/HeroisAmadores.git
+cd HeroisAmadores
 
-4. Plano de Desenvolvimento
-   • Fase 1 (Produto Mínimo Viável):
-   ◦ Estrutura básica do site.
-   ◦ Gerador de Desculpas funcional.
-   ◦ Página de cadastro e login.
-   • Fase 2 (Melhorias e Expansão):
-   ◦ Módulos de treinamento.
-   ◦ Clube de Filmes Ruins com comentários.
-   ◦ Página de perfil detalhada.
-   • Fase 3 (Funcionalidades Avançadas):
-   ◦ Gamificação (pontos, distintivos).
-   ◦ Sistema de ranking dos heróis mais desajeitados.
-   ◦ Chat em tempo real no Clube de Filmes.
+# Instale as dependências
+npm install
 
-5. Considerações Finais
-   • Lições Aprendidas: Aprendizado em linguagens/ferramentas web. Desenvolvimento gráfico focada na experiência do usuário. Trabalho em equipe e divisão de tarefas.
-   • Próximos Passos: Após a criação e desenvolvimento de todo Frontend, focar no Backend.
+# Execute o projeto em modo desenvolvimento
+npm run dev
+```
+
+O projeto estará disponível em `http://localhost:5173`
+
+### Scripts Disponíveis
+
+```bash
+npm run dev      # Executa em modo desenvolvimento
+npm run build    # Gera build de produção
+
+
+## 🛠️ Tecnologias
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React (ícones)
+
